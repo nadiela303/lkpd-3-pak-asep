@@ -3,82 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil Nadiela</title>
+    <title>Profil Saya</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f9;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #a8edd9 0%, #fed6e3 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
         margin: 0;
         padding: 20px;
+        box-sizing: border-box;
       }
-      .container {
-        max-width: 600px;
-        background: #ffffff;
-        margin: 0 auto;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      h2 {
-        text-align: center;
-        color: #333333;
-      }
-      .profile-img {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      .profile-img img {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid #007bff;
-      }
-      table {
+      .card {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        max-width: 450px;
         width: 100%;
-        border-collapse: collapse;
       }
-      table td {
-        padding: 10px;
-        vertical-align: top;
+      h1 {
+        color: #4a4e69;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-bottom: 3px solid #ff758c;
+        padding-bottom: 10px;
       }
-      table td.label {
-        font-weight: bold;
-        width: 35%;
-        color: #555555;
+      .info-item {
+        background: #f8f9fa;
+        margin-bottom: 10px;
+        padding: 12px 15px;
+        border-radius: 8px;
+        font-size: 15px;
+        color: #333;
+        border-left: 5px solid #ff758c;
+      }
+      .info-item strong {
+        color: #222;
+        display: inline-block;
+        width: 130px;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h2>Biodata Diri</h2>
+    <div class="card">
+      <h1>Profil Siswa</h1>
 
-      <div class="profile-img">
-        <img src="https://via.placeholder.com/120" alt="Foto Profil Nadiela" />
-      </div>
-
-      <table>
-        <tr>
-          <td class="label">Nama Lengkap</td>
-          <td>: Nadiela</td>
-        </tr>
-        <tr>
-          <td class="label">Kelas</td>
-          <td>: XI RPL 1</td>
-        </tr>
-        <tr>
-          <td class="label">Tempat, Tanggal Lahir</td>
-          <td>: Garut, 29 November 2009</td>
-        </tr>
-        <tr>
-          <td class="label">Jenis Kelamin</td>
-          <td>: Perempuan</td>
-        </tr>
-        <tr>
-          <td class="label">Hobi</td>
-          <td>: Rebahan, mendengarkan musik, dan makan</td>
-        </tr>
-      </table>
+      <div class="info-item"><strong>Nama Lengkap:</strong> Nadiela Muthiara Ulfa Hariyanto</div>
+      <div class="info-item"><strong>Jenis Kelamin:</strong> Perempuan</div>
+      <div class="info-item"><strong>TTL:</strong> Garut, 29 November 2009</div>
+      <div class="info-item"><strong>Agama:</strong> Islam</div>
+      <div class="info-item"><strong>Sekolah:</strong> SMKN 1 Garut</div>
+      <div class="info-item"><strong>Hobi:</strong> Rebahan dan mendengarkan musik</div>
     </div>
   </body>
 </html>
