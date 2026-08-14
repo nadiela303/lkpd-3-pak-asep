@@ -10,3 +10,14 @@ Jawab:
 
 3. Kapan sebaiknya membuat branch baru?
 Jawab: Setiap mau nambahin fitur baru, mau benerin error (bug), atau pas mau coba-coba eksperimen kode.
+
+## Bukti Hasil
+
+### 1. Screenshot Git Branch & Checkout
+![Bukti Branch](01_bukti_branch_checkout.png)
+
+### 2. Screenshot Commit
+![Bukti Commit](02_bukti_add_commit.png)
+
+### 3. Screenshot Merge & Push
+![Bukti Merge](03_bukti_merge_push.png)
